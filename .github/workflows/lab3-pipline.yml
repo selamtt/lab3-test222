@@ -5,11 +5,11 @@ on:
      abc 
      #on.push.branches, on.push.abc
     - main
-    - *
+   
 pull_request:
   branches:
   - main
-  - *
+  
 jobs:
  test:
   runs-on: ubuntu-latest
