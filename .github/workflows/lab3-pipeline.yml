@@ -1,6 +1,6 @@
 name: Lab 3 Create Artifact
 on:
-  push:
+ push:
     branches:
      abc 
      #on.push.branches, on.push.abc
