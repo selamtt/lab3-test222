@@ -2,10 +2,10 @@ name: Lab 3 create Artifact
 on:
   push:
     branches:
-     abc 
+
 # on.push.branches, on.push.abc
      - main
-   pull_request:
+  pull_request:
      branches:
      - main
 jobs:
